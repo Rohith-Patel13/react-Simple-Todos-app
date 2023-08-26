@@ -1,0 +1,22 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.btnEl {
+  color: #ff0b37;
+  background-color: transparent;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border-color: #ff0b37;
+  margin-left: 3rem;
+  cursor: pointer;
+}
